@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <title></title>
+        <link href="css/style.css" type="text/css" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+
+    <body>
+        <header class="navigation">
+            <div class="logo">
+                <img src="img/Brooke (1).png" alt="Brooke Warren logo">
+            </div>
+            <nav class="inline-block">
+                <ul class="topnav">
+                    <li>About</li>
+                    <li>Skills</li>
+                    <li>Work</li>
+                    <li>Contact</li>
+                </ul>
+            </nav>
+        </header>
+        <section class="heroImg">
+            <div class="heroGrid">
+                <img src="img/headshot.jpg" alt="Brooke Warren">
+                <h2 class="heroHeader">
+                    Brooke Warren: A passionate freelance UX/UI designer dedicated to crafting intuitive and engaging digital experiences.
+                </h2>
+                <p class="heroP">
+                    Brooke’s favorite part of design is working to get from wireframes to the final high fidelity prototype. She believe in doing user research and testing to make the best possible final product for clients. 
+                </p>
+                <button id="heroBtn" class="heroButton">
+                    Download Resume
+                </button>
+                <div id="myModal" class="modal">
+                    <div class="modalContent animate-right">
+                        <span class="close">&times;</span>
+                        <h4>Download:</h4>
+                        <button class="resume">Résumé</button>
+                        <button class="workSamples">Work Samples</button>
+                        <button class="caseStudy">Case Study</button>
+                    </div>
+                </div>
+            </div>
+            
+        </section>
+        <!--  My UX Skills section coded using CSS flex -->
+        <section class="mySkills">
+            <h1>My UX Skills</h1>
+            <div class="flexContainer">
+                <div >
+                    <img id="branding"src="img/style-guide.svg">
+                    <h3>Branding & Style Guides</h3>
+                    <p>Infusing a brand’s goals and influence into a polished and professional style guide.</p>
+                </div>
+                <div >
+                    <img id="wireframe" src="img/wireframe.svg">
+                    <h3>Wireframes</h3>
+                    <p>Using Figma to create wireframes to start the process of creating a new design for a project. Keeping it simple to get an idea of where we are going.</p>
+                </div>
+                <div >
+                    <img id="prototype" src="img/prototype.svg">
+                    <h3>Prototypes</h3>
+                    <p>Turning the simple wireframes into prototypes by combining them with the branding and style guides to bring the creation to life.</p>
+                </div>
+            </div>
+        </section>
+        <!-- My Work Section Constructed using CSS Grid -->
+        <section class="myWork">
+            <h1>My Work</h1>
+            <div class="workGrid">
+                <div class="deptEdImg">
+                    <img src="img/Home Page 2.png">
+                </div>
+                <div class="deptEdText">
+                    <h4>Government Agency Redesign</h4>
+                    <p>The Department of Education is responsible for supporting all levels of those involved in education, from government officials to parents and students. The primary goal of this project was to redesign the website to improve navigation and UI aspects.</p>
+                    <button>See Project</button>
+                </div>
+                <div class="outNaboutImg">
+                    <img src="img/Out N About.png">
+                </div>
+                <div class="outNaboutText">
+                    <h4>Out N About</h4>
+                    <p>A Family Friendly Outdoor App</p>
+                    <button>See Project</button>
+                </div>
+                <div class="GrinImg">
+                    <img src="img/GRIN.png">
+                </div>
+                <div class="GrinText">
+                    <h4>Non-Profit Redesign</h4>
+                    <p>GRIN is a food pantry in central Ohio. While their website is functional, the navigation and overall design was in need of a refresh. The goal of this project was to make information more accessible for users and to modernize the UI of the site.</p>
+                    <button>See Project</button>
+                </div>
+            </div>
+            <h3>View All Projects</h3>
+        </section>
+        <footer>
+            <ul class="footerNav">
+                <li>
+                    About
+                </li>
+                <li>
+                    Skills
+                </li>
+                <li>
+                    Work
+                </li>
+                <li>
+                    Contact
+                </li>
+            </ul>
+        </footer>
+    </body>
+    <script src="js/index.js"></script>
+</html>
